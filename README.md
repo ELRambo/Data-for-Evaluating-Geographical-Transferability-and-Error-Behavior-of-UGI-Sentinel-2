@@ -45,9 +45,9 @@ Sentinel-2 observations acquired between January 2019 and December 2020 were com
 
 Vegetation was identified using city-specific Normalized Difference Vegetation Index (NDVI) thresholds. The thresholds were parameterized using the city-level NDVI mean and standard deviation and selected through visual assessment of the resulting vegetation masks.
 
-Water surfaces were excluded using the Normalized Difference Water Index (NDWI), and building footprints were used as an auxiliary mask to reduce vegetation labels associated with mapped buildings.
+Water surfaces were excluded using the Normalized Difference Water Index (NDWI), and building footprints from the Global Building Footprints dataset were used as an auxiliary mask to reduce vegetation labels associated with mapped buildings.
 
-The resulting binary reference labels represent UGI and non-UGI at the 10 m Sentinel-2 mapping scale.
+The resulting binary reference labels represent UGI and non-UGI at the 10 m Sentinel-2 mapping scale, with 0 = non-UGI and 1 = UGI.
 
 The city-specific NDVI thresholds are documented in `city_and_thresholds.xlsx`.
 
